@@ -1,0 +1,476 @@
+<template>
+  <NucGridPage v-bind:gap="{'col':0,'row':0}" v-bind:rows="[1]"
+    v-bind:schema="{'r0-c0':{'col':0,'row':0,'showIn':['xs','sm','md','lg'],'colSpan':1,'rowSpan':1}}"
+    v-bind:columns="[1]" overflow="auto" v-bind:designMode="false" v-bind:minNsLimit="0"
+    v-bind:style="{'background':'#FFFFFF','paddingTop':'0px','paddingLeft':'0px','paddingRight':'0px','paddingBottom':'0px'}">
+    <NucGridCell v-bind:wrap="true" v-bind:reverse="false" overflow="auto" direction="column"
+      v-bind:showInDevice="['xs','sm','md','lg']" verticalAlignment="top" horizontalAlignment="left"
+      id="3db677cd-6bc9-4a15-908f-612f6d05e3e1" v-bind:col="0" v-bind:row="0" v-bind:colSpan="1" v-bind:rowSpan="1"
+      v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0" v-bind:marginBottom="0"
+      v-bind:style="{'height':'7000px','background':'transparent','paddingTop':'0px','borderColor':'','borderStyle':'solid','borderWidth':'0px','paddingLeft':'0px','borderRadius':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'1px','borderTopRightRadius':'1px','borderBottomLeftRadius':'1px','borderBottomRightRadius':'1px'}"
+      slot="r0-c0" area="r0-c0">
+      <NucGroupElement top="-0.24344837462408705%" left="0%" v-bind:snapX="false" v-bind:snapY="false"
+        v-bind:isLock="true" bgColor="" position="absolute" ncTooltipText="" id="eb2b9748-7b1f-4f4d-bbcf-b55c081e62d7"
+        v-bind:style="{'color':'#FFFFFF','width':'1920px','height':'7050px','zIndex':2,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#faf4e8','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0.75px','textDecoration':'none','borderLeftWidth':'0.75px','borderRightWidth':'0.75px','borderBottomWidth':'0.75px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
+        <WImage top="10.515057873678193%" left="0%" v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.wallpaperscraft.com/image/single/face_drawing_vector_paints_color_amazing_92835_1280x720.jpg"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="4afa3513-d474-4155-a172-f905ddb00017"
+          v-bind:style="{'width':'1920px','height':'1000px','zIndex':4,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WHeading top="3.7546875%" left="27.700554653679653%" text="Collaborate Effectively,
+and Beautifully."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" headings="h1" position="absolute"
+          ncTypography="custom" ncTooltipText="" id="91abb1c7-fd38-4630-9794-3fadc9e57a36"
+          v-bind:style="{'wrap':'md','color':'#126656','width':'827px','height':'181px','zIndex':5,'fontSize':'80px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'','visibility':'visible','whiteSpace':' pre-line','marginRight':'0px','paddingLeft':'0px','wordSpacing':'','marginBottom':'0px','paddingRight':'0px','letterSpacing':'','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WParagraph top="6.650446428571429%" left="31.5822849025974%"
+          text="DueTo provides an effective and joyful way to manage your creative projects" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="14a16f04-56f7-491b-a20c-ff91e07debeb"
+          v-bind:style="{'wrap':'md','color':'#114A40','width':'683px','height':'26px','zIndex':6,'fontSize':'20px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WPillInfoButton tag="button" top="7.459274078308088%" href="Screen+1#28152628-4c56-4e62-a2c8-64d6c306afca"
+          left="44.1017316017316%" v-bind:pill="true" size="md" text="Get Started" type="button" v-bind:block="false"
+          color="#FAF4E8" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false"
+          variant="info" position="absolute" v-bind:isEnabled="true" background="#126656" linkTarget="_self"
+          ncLinkType="link" borderColor="#17A2B8" borderWidth="0px" ncTypography="custom" v-bind:resetTrigger="false"
+          ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink=""
+          horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          nucalScaleHeight="" ncClickBorderColor="#000000" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#000000"
+          ncHoverBorderColor="#000000" ncDisableBorderColor="#000000" ncClickBackgroundColor="#000000"
+          ncFocusBackgroundColor="#000000" ncHoverBackgroundColor="#000000" ncDisableBackgroundColor="#000000"
+          id="058277f9-a2de-46ab-b3f2-b6089584a2c0"
+          v-bind:style="{'width':'218px','height':'55px','zIndex':7,'fontSize':'16px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Montserrat-SemiBold,Montserrat','fontWeight':'bold','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'20px','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'28.151025px','borderBottomWidth':'0px','borderTopLeftRadius':'3px','borderTopRightRadius':'3px','borderBottomLeftRadius':'3px','borderBottomRightRadius':'3px'}"/>
+        <WHeading top="26.68396327522149%" left="31.95337892741062%" text="Great Is More Than the
+Sum of Its Parts"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" headings="h1" position="absolute"
+          ncTypography="custom" ncTooltipText="" id="1a546942-64d8-4564-96d8-6a5271bd7dcd"
+          v-bind:style="{'wrap':'md','color':'#126656','width':'667px','height':'139px','zIndex':8,'fontSize':'65px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'','visibility':'visible','whiteSpace':' pre-line','marginRight':'0px','paddingLeft':'0px','wordSpacing':'','marginBottom':'0px','paddingRight':'0px','letterSpacing':'','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WParagraph top="25.956076736210346%" left="44.0191630552546%" text="Features &amp; Benefits"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="22688cb6-fc51-4413-a42a-692110c3dc6e"
+          v-bind:style="{'wrap':'md','color':'#B6743E','width':'221px','height':'27px','zIndex':9,'fontSize':'25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WPillInfoButton tag="button" top="29.036867676478995%" href="" left="44.1017316017316%" v-bind:pill="true"
+          size="md" text="Explorer Features" type="button" v-bind:block="false" color="#FAF4E8" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="info" position="absolute"
+          v-bind:isEnabled="true" background="#126656" linkTarget="_self" ncLinkType="link" borderColor="#17A2B8"
+          borderWidth="0px" ncTypography="custom" v-bind:resetTrigger="false" ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink="to"
+          horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          nucalScaleHeight="" ncClickBorderColor="#000000" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#000000"
+          ncHoverBorderColor="#000000" ncDisableBorderColor="#000000" ncClickBackgroundColor="#000000"
+          ncFocusBackgroundColor="#000000" ncHoverBackgroundColor="#000000" ncDisableBackgroundColor="#000000"
+          id="1e710cc3-fa9c-4673-9f2c-efc3a1f792eb"
+          v-bind:style="{'width':'218px','height':'53px','zIndex':10,'fontSize':'15px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Montserrat-SemiBold,Montserrat','fontWeight':'bold','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'28.151025px','borderBottomWidth':'0px','borderTopLeftRadius':'3px','borderTopRightRadius':'3px','borderBottomLeftRadius':'3px','borderBottomRightRadius':'3px'}"/>
+        <WImage top="31.085220777364963%" left="0%" v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.wallpaperscraft.com/image/single/cubes_dice_game_269339_1280x720.jpg"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="698050e2-b9b5-4131-9109-1a91fbc5f7e1"
+          v-bind:style="{'width':'640px','height':'490px','zIndex':11,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WImage top="31.080085381537582%" left="33.58020720476706%" v-bind:blank="false" v-bind:snapX="false"
+          v-bind:snapY="false" v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.wallpaperscraft.com/image/single/cup_marshmallow_smiles_66334_1280x720.jpg"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="939efe43-da8e-48a6-a3e3-532158063317"
+          v-bind:style="{'width':'640px','height':'490px','zIndex':12,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WImage top="31.085667333523865%" left="66.44433911159263%" v-bind:blank="false" v-bind:snapX="true"
+          v-bind:snapY="false" v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.pexels.com/photos/19677/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="6dfd3e30-0714-4fba-ae31-ec608c1a215f"
+          v-bind:style="{'width':'640px','height':'490px','zIndex':13,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WHeading top="40.05698056587597%" left="33.18862159653465%" text="By Creatives, for Creatives"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" headings="h1" position="absolute"
+          ncTypography="custom" ncTooltipText="" id="13f71322-b0eb-41cc-9b26-663dc72236b0"
+          v-bind:style="{'wrap':'md','color':'#126656','width':'652px','height':'65px','zIndex':14,'fontSize':'55px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'','visibility':'visible','whiteSpace':' pre-line','marginRight':'0px','paddingLeft':'0px','wordSpacing':'','marginBottom':'0px','paddingRight':'0px','letterSpacing':'','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WPillInfoButton tag="button" top="42.3978279508431%" href="Screen+1#e4d6acca-296d-4a38-95e7-93322407b4a4"
+          left="44.696969696969695%" v-bind:pill="true" size="md" text="Learn More" type="button" v-bind:block="false"
+          color="#FAF4E8" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false"
+          variant="info" position="absolute" v-bind:isEnabled="true" background="#126656" linkTarget="_self"
+          ncLinkType="link" borderColor="#17A2B8" borderWidth="0px" ncTypography="custom" v-bind:resetTrigger="false"
+          ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink=""
+          horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          nucalScaleHeight="" ncClickBorderColor="#000000" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#000000"
+          ncHoverBorderColor="#000000" ncDisableBorderColor="#000000" ncClickBackgroundColor="#000000"
+          ncFocusBackgroundColor="#000000" ncHoverBackgroundColor="#000000" ncDisableBackgroundColor="#000000"
+          id="4c2fcf82-38bf-441a-8d1d-0bfb654c3252"
+          v-bind:style="{'width':'196px','height':'54px','zIndex':15,'fontSize':'15px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Montserrat-SemiBold,Montserrat','fontWeight':'bold','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'18px','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'28.151025px','borderBottomWidth':'0px','borderTopLeftRadius':'3px','borderTopRightRadius':'3px','borderBottomLeftRadius':'3px','borderBottomRightRadius':'3px'}"/>
+        <WParagraph top="41.35690554444127%" left="34.17185807150596%"
+          text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="04ed5e21-edd3-403b-87d1-fbd29939a31e"
+          v-bind:style="{'wrap':'md','color':'#000000','width':'585px','height':'42px','zIndex':16,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WImage top="44.685535152900826%" left="0%" v-bind:blank="false" v-bind:snapX="true" v-bind:snapY="false"
+          v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.wallpaperscraft.com/image/single/watches_pocket_autumn_berries_dry_chain_dial_77041_1280x720.jpg"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="3228af58-a41d-488e-886f-c40ad97f39da"
+          v-bind:style="{'width':'1920px','height':'1000px','zIndex':17,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WHeading top="61.39946234638468%" left="30.89788732394366%" text="What Our Clients Are Saying"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" headings="h1" position="absolute"
+          ncTypography="custom" ncTooltipText="" id="834befda-4eab-45cc-b508-9fdfa321c0ba"
+          v-bind:style="{'wrap':'md','color':'#126656','width':'706px','height':'68px','zIndex':18,'fontSize':'55px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'','visibility':'visible','whiteSpace':' pre-line','marginRight':'0px','paddingLeft':'0px','wordSpacing':'','marginBottom':'0px','paddingRight':'0px','letterSpacing':'','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WParagraph top="60.5599367676479%" left="45.91450216450217%" text="Testimonials" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="c813aa3a-fd1f-48c8-a218-62456eb88346"
+          v-bind:style="{'wrap':'md','color':'#B6743E','width':'151px','height':'31px','zIndex':19,'fontSize':'25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <NucGroupElement top="63.385074306944844%" left="35.2806744312026%" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+          id="8a0f9a71-4968-4fed-8977-45e8d6235d84"
+          v-bind:style="{'color':'#FFFFFF','width':'544px','height':'378px','zIndex':20,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#FFFFFF','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'30px','borderTopRightRadius':'30px','borderBottomLeftRadius':'30px','borderBottomRightRadius':'30px'}">
+          <WParagraph top="32.27513227513227%" left="8.455882352941176%"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+            v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+            ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+            id="153c3744-ff35-4b0f-8f14-19a80d8f8c39"
+            v-bind:style="{'wrap':'md','color':'#000000','width':'420px','height':'58px','zIndex':27,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+          <NucGroupElement top="76.59574468085107%" left="0%" v-bind:snapX="false" v-bind:snapY="false"
+            v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+            id="c67f5faf-11bc-4dc3-b7fd-c4825c92a46d"
+            v-bind:style="{'color':'#FFFFFF','width':'567px','height':'88px','zIndex':28,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#ccdee2','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'30px','borderBottomRightRadius':'30px'}">
+            <WParagraph top="34.09090909090909%" left="20.940959409594097%"
+              text="
+Suzan Li
+Marketing Manager at Truvision" v-bind:snapX="false" v-bind:snapY="false"
+              theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+              v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+              id="2f1cdba8-0c98-4909-9ec5-0f3752fb5177"
+              v-bind:style="{'wrap':'md','color':'#126656','width':'315px','height':'21px','zIndex':30,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+          </NucGroupElement>
+        </NucGroupElement>
+        <NucGroupElement top="63.38552086310374%" left="5.195354821235103%" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+          id="781500c7-f9a9-4fb1-8178-85aff019f375"
+          v-bind:style="{'color':'#FFFFFF','width':'544px','height':'378px','zIndex':21,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#FFFFFF','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'30px','borderTopRightRadius':'30px','borderBottomLeftRadius':'30px','borderBottomRightRadius':'30px'}">
+          <WParagraph top="32.27513227513227%" left="8.455882352941176%"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+            v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+            ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+            id="895a3b30-3142-420b-af0e-52df68951260"
+            v-bind:style="{'wrap':'md','color':'#000000','width':'422px','height':'55px','zIndex':28,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+          <NucGroupElement top="76.59574468085107%" left="0%" v-bind:snapX="false" v-bind:snapY="false"
+            v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+            id="82a3d1bd-b548-47cf-8d6a-1e103100a325"
+            v-bind:style="{'color':'#FFFFFF','width':'567px','height':'88px','zIndex':29,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#ccdee2','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'30px','borderBottomRightRadius':'30px'}">
+            <WParagraph top="34.09090909090909%" left="20.940959409594097%"
+              text="
+Suzan Li
+Marketing Manager at Truvision" v-bind:snapX="false" v-bind:snapY="false"
+              theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+              v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+              id="39ac9ad0-7fb1-4973-b857-9514e5a70f9d"
+              v-bind:style="{'wrap':'md','color':'#126656','width':'315px','height':'21px','zIndex':31,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+          </NucGroupElement>
+        </NucGroupElement>
+        <NucGroupElement top="63.385714285714286%" left="65.42207792207792%" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+          id="e270992b-e483-4bad-94ff-e8e2e90df71d"
+          v-bind:style="{'color':'#FFFFFF','width':'544px','height':'378px','zIndex':22,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#FFFFFF','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'30px','borderTopRightRadius':'30px','borderBottomLeftRadius':'30px','borderBottomRightRadius':'30px'}">
+          <WParagraph top="32.27513227513227%" left="8.455882352941176%"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+            ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+            id="f0d88b89-e090-49c9-bdbd-2bdba87deb91"
+            v-bind:style="{'wrap':'md','color':'#000000','width':'423px','height':'59px','zIndex':29,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+          <NucGroupElement top="76.59574468085107%" left="0%" v-bind:snapX="false" v-bind:snapY="false"
+            v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+            id="b30d1b5a-23c1-452e-9fd1-036aef854388"
+            v-bind:style="{'color':'#FFFFFF','width':'567px','height':'88px','zIndex':30,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#ccdee2','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'30px','borderBottomRightRadius':'30px'}">
+            <WParagraph top="34.09090909090909%" left="20.940959409594097%"
+              text="
+Suzan Li
+Marketing Manager at Truvision" v-bind:snapX="false" v-bind:snapY="false"
+              theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+              v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+              id="43bbcb81-18ef-418f-a7f1-d9463a53afd8"
+              v-bind:style="{'wrap':'md','color':'#126656','width':'315px','height':'21px','zIndex':32,'fontSize':'17px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+          </NucGroupElement>
+        </NucGroupElement>
+        <WParagraph top="50.94268005144327%" left="54.10579004329004%"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="bef1c961-6ca4-4e9a-9ae2-3dfb00aab84e"
+          v-bind:style="{'wrap':'md','color':'#ffffff','width':'487px','height':'183px','zIndex':23,'fontSize':'20px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <NucGroupElement top="94.96311010215663%" left="0%" v-bind:snapX="false" v-bind:snapY="true"
+          v-bind:isLock="false" bgColor="" position="absolute" borderWidth="0px" ncTooltipText=""
+          id="d13877b9-7a39-4904-a4d9-add511ea59bd"
+          v-bind:style="{'color':'#FFFFFF','width':'1920px','height':'353px','zIndex':24,'fontSize':'11.25px','maxWidth':'','minWidth':'','tabIndex':'-0.75','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#CCDEE2','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
+          <WLink top="39.51348396501458%" href="" left="7.803189328277356%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Home" v-bind:disabled="false"
+            position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link" ncOverflow="hidden"
+            visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="6c2d0289-6e04-4c36-a4fb-b8b4acc6593d"
+            v-bind:style="{'color':'#126656','width':'','height':'','zIndex':31,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="49.230138483965014%" href="" left="7.723625406283857%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Features &amp; Benefits"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="f71f184f-98e4-49f8-bd7f-b3bde88306b2"
+            v-bind:style="{'color':'#126656','width':'152px','height':'22px','zIndex':32,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="59.033345481049565%" href="" left="7.775257313109425%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Plans and Pricing"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="d9d425b5-18e5-4320-a61f-f0b81595c159"
+            v-bind:style="{'color':'#126656','width':'162px','height':'22px','zIndex':33,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="22.67219387755102%" href="" left="23.200501083423617%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Contact" v-bind:disabled="false"
+            position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link" ncOverflow="hidden"
+            visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#747474" ncFocusFontColor="#494949"
+            ncHoverFontColor="#494949" ncDisableFontColor="#4285f4" id="28152628-4c56-4e62-a2c8-64d6c306afca"
+            v-bind:style="{'color':'#126656','width':'91px','height':'27px','zIndex':34,'fontSize':'22px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'OpenSans-SemiBold,Open Sans','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="39.47704081632653%" href="" left="23.230972372697725%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false"
+            caption="General Inquiries - info@mysite.com" v-bind:disabled="false" position="absolute" routerTag="a"
+            linkTarget="_self" ncLinkType="link" ncOverflow="hidden" visibility="visible" activeClass=""
+            ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="ef4e2c8d-4e85-4754-9b54-3a8ecdc272a3"
+            v-bind:style="{'color':'#126656','width':'280px','height':'22px','zIndex':35,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="49.18002915451895%" href="" left="23.289375677139763%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Sales - 123-456-7890"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="cedb9672-03bd-4606-bd02-0a3e3a088dec"
+            v-bind:style="{'color':'#126656','width':'167px','height':'22px','zIndex':36,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="59.115342565597665%" href="" left="23.338468309859156%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Support - 123-456-7890"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="4d947036-1e74-4ebc-94e3-00715d4762f4"
+            v-bind:style="{'color':'#126656','width':'186px','height':'22px','zIndex':37,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="22.649416909620992%" href="" left="48.91996208017335%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Socials" v-bind:disabled="false"
+            position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link" ncOverflow="hidden"
+            visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#494949" ncFocusFontColor="#494949"
+            ncHoverFontColor="#494949" ncDisableFontColor="#4285f4" id="c07b222a-c62e-4bdb-8239-a1f9674d71b9"
+            v-bind:style="{'color':'#126656','width':'79px','height':'27px','zIndex':38,'fontSize':'22px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'OpenSans-SemiBold,Open Sans','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="39.30393586005831%" href="" left="49.142571776814734%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false"
+            caption="General Inquiries - info@mysite.com" v-bind:disabled="false" position="absolute" routerTag="a"
+            linkTarget="_self" ncLinkType="link" ncOverflow="hidden" visibility="visible" activeClass=""
+            ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="96b18171-5068-498a-8af0-954d5579367d"
+            v-bind:style="{'color':'#126656','width':'281px','height':'22px','zIndex':39,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="49.31213556851312%" href="" left="49.197589382448534%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Sales - 123-456-7890"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="bc84575a-1210-4eff-9217-4d564b7ad518"
+            v-bind:style="{'color':'#126656','width':'167px','height':'22px','zIndex':40,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="58.9877915451895%" href="" left="49.23059994582882%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Support - 123-456-7890"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828c9e" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="963f2c36-602b-419e-a381-deeb0c6771e2"
+            v-bind:style="{'color':'#126656','width':'187px','height':'22px','zIndex':41,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="22.70408163265306%" href="" left="71.67947589382449%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false" caption="Stay Connected"
+            v-bind:disabled="false" position="absolute" routerTag="a" linkTarget="_self" ncLinkType="link"
+            ncOverflow="hidden" visibility="visible" activeClass="" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#494949" ncFocusFontColor="#494949"
+            ncHoverFontColor="#494949" ncDisableFontColor="#4285f4" id="c5b413c6-bcd6-4100-b3ce-cd83e3848537"
+            v-bind:style="{'color':'#126656','width':'172px','height':'27px','zIndex':42,'fontSize':'22px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'OpenSans-SemiBold,Open Sans','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <WLink top="39.467930029154516%" href="" left="71.70402221018418%" v-bind:exact="false" v-bind:snapX="false"
+            v-bind:snapY="false" v-bind:active="false" v-bind:append="false"
+            caption="Stay up-to date with the latest news and updates" v-bind:disabled="false" position="absolute"
+            routerTag="a" linkTarget="_self" ncLinkType="link" ncOverflow="hidden" visibility="visible" activeClass=""
+            ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'href','displayName':'Href'},{'type':'string','propName':'caption','displayName':'Caption'}]}"
+            toForRouterLink="to" exactActiveClass="" ncClickFontColor="#828C9E" ncFocusFontColor="#828c9e"
+            ncHoverFontColor="#828c9e" ncDisableFontColor="#4285f4" id="40fa1c31-63b1-4913-b95a-8c729b8d3e49"
+            v-bind:style="{'color':'#126656','width':'373px','height':'22px','zIndex':43,'fontSize':'17px','maxWidth':'','minWidth':'','tabIndex':'-0.75','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          <NucInput top="49.084365889212826%" left="71.69047941495124%" text="" v-bind:snapX="false"
+            v-bind:snapY="false" theme="theme--light01" maximum="100" minimum="0" position="absolute" tabIndex="0"
+            isEnabled="Enable" v-bind:isMasking="false" borderWidth="0px" ncInputType="text" placeholder="Email"
+            v-bind:previewMode="true" ncTypography="custom" ncTooltipText=""
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','ncKey':'type','ncType':{'ncInputType':'number'},'ncValue':'number','propName':'text','displayName':'Value','nsDefaultValue':'string'}]}"
+            ncClickFontColor="#434855" ncFocusFontColor="#434855" ncHoverFontColor="#434855"
+            ncClickBorderColor="transparent" ncDisableFontColor="#434855" ncFocusBorderColor="transparent"
+            ncHoverBorderColor="transparent" ncDisableBorderColor="transparent" ncClickBackgroundColor="transparent"
+            ncFocusBackgroundColor="transparent" ncHoverBackgroundColor="transparent"
+            ncDisableBackgroundColor="transparent" id="36136265-9dcc-4f4d-a8d7-9d7b705e3388"
+            v-bind:style="{'color':'#000000','width':'382px','height':'44px','zIndex':44,'fontSize':'18px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'#FFFFFF','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.75','marginLeft':'0px','paddingTop':'10px','visibility':'visible','borderColor':'#D1D1D6','borderStyle':'solid','marginRight':'0px','paddingLeft':'20px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'250px','borderTopRightRadius':'250px','borderBottomLeftRadius':'250px','borderBottomRightRadius':'250px'}"/>
+          <WPillDefaultButton tag="button" top="64.91435860058309%" href="https://nucal.com/" left="83.5776679306609%"
+            v-bind:pill="true" size="md" text="Submit" type="button" v-bind:block="false" color="" v-bind:snapX="false"
+            v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary" position="absolute"
+            v-bind:isEnabled="true" background="#126656" linkTarget="_blank" ncLinkType="link" borderColor="#65757D"
+            ncTypography="custom" v-bind:resetTrigger="false" ncTooltipText="" verticalWidth="60px"
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+            verticalHeight="60px" horizontalWidth="72.4479px" toForRouterLink="to" horizontalHeight="37.5347px"
+            ncClickFontColor="#ffffff" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+            ncClickBorderColor="#828c9e" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#828c9e"
+            ncHoverBorderColor="#828c9e" ncDisableBorderColor="#828C9E" ncClickBackgroundColor="#828c9e"
+            ncFocusBackgroundColor="#828c9e" ncHoverBackgroundColor="#828c9e" ncDisableBackgroundColor="#828c9e"
+            id="30d93ca7-61cc-41a6-9f90-bb28f36f444b"
+            v-bind:style="{'width':'157px','height':'43px','zIndex':45,'fontSize':'15px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'bold','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'13px','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0.75px','textDecoration':'none','borderLeftWidth':'0.75px','borderRightWidth':'0.75px','horizontalHeight':'28.151025px','borderBottomWidth':'0.75px','borderTopLeftRadius':'3px','borderTopRightRadius':'3px','borderBottomLeftRadius':'3px','borderBottomRightRadius':'3px'}"/>
+        </NucGroupElement>
+        <WImage top="77.94146541869105%" left="0.005924972914409534%" v-bind:blank="false" v-bind:snapX="true"
+          v-bind:snapY="false" v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.wallpaperscraft.com/image/single/cup_ocean_sand_133354_1280x720.jpg"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="f15f6c73-d674-4d6b-84af-6e6dd51adeee"
+          v-bind:style="{'width':'1920px','height':'1200px','zIndex':25,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WParagraph top="70.47393005144328%" left="45.91450216450217%" text="Testimonials" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="5e1d6b61-f970-4a5d-a133-f2ae06aa9a61"
+          v-bind:style="{'wrap':'md','color':'#B6743E','width':'151px','height':'31px','zIndex':26,'fontSize':'25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WHeading top="71.29135110031437%" left="37.12080173347779%" text="Trusted by Experts" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" headings="h1" position="absolute" ncTypography="custom"
+          ncTooltipText="" id="02f5bfa8-5995-490b-99e8-507312c6b89b"
+          v-bind:style="{'wrap':'md','color':'#126656','width':'476px','height':'64px','zIndex':27,'fontSize':'55px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'','visibility':'visible','whiteSpace':' pre-line','marginRight':'0px','paddingLeft':'0px','wordSpacing':'','marginBottom':'0px','paddingRight':'0px','letterSpacing':'','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WParagraph top="73.29214597027722%" left="19.10126625135428%"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="c5759c0d-12ef-437e-afca-842af33dfadc"
+          v-bind:style="{'wrap':'md','color':'#000000','width':'1142px','height':'119px','zIndex':28,'fontSize':'25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WPillInfoButton tag="button" top="75.76450414404115%" href="Screen+1#e4d6acca-296d-4a38-95e7-93322407b4a4"
+          left="44.696969696969695%" v-bind:pill="true" size="md" text="Learn More" type="button" v-bind:block="false"
+          color="#FAF4E8" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false"
+          variant="info" position="absolute" v-bind:isEnabled="true" background="#126656" linkTarget="_self"
+          ncLinkType="link" borderColor="#17A2B8" borderWidth="0px" ncTypography="custom" v-bind:resetTrigger="false"
+          ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink=""
+          horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          nucalScaleHeight="" ncClickBorderColor="#000000" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#000000"
+          ncHoverBorderColor="#000000" ncDisableBorderColor="#000000" ncClickBackgroundColor="#000000"
+          ncFocusBackgroundColor="#000000" ncHoverBackgroundColor="#000000" ncDisableBackgroundColor="#000000"
+          id="7a2716b2-2289-47b3-bcb5-6d601525916d"
+          v-bind:style="{'width':'196px','height':'52px','zIndex':29,'fontSize':'15px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Montserrat-SemiBold,Montserrat','fontWeight':'bold','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'18px','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'28.151025px','borderBottomWidth':'0px','borderTopLeftRadius':'3px','borderTopRightRadius':'3px','borderBottomLeftRadius':'3px','borderBottomRightRadius':'3px'}"/>
+        <WParagraph top="84.12403543869677%" left="20.995670995670995%"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="437b8ad5-73bd-4072-ba31-af738c6a14bb"
+          v-bind:style="{'wrap':'md','color':'#000000','width':'1072px','height':'139px','zIndex':30,'fontSize':'25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WHeading top="16.91398435267219%" left="61.46736186348863%" text="Simplifying the Complex" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" headings="h1" position="absolute" ncTypography="custom"
+          ncTooltipText="" id="684285c8-d718-4a49-a42a-923ad35544db"
+          v-bind:style="{'wrap':'md','color':'#000000','width':'202px','height':'76px','zIndex':31,'fontSize':'35px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'none','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'none','marginBottom':'0px','paddingRight':'0px','letterSpacing':'none','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WParagraph top="18.285581594741355%" left="61.46736186348863%"
+          text="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="7b49f709-0604-46f8-9fe3-873c38a253ea"
+          v-bind:style="{'wrap':'md','color':'#000000','width':'384px','height':'79px','zIndex':32,'fontSize':'18px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','background':'transparent','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.0499999999999998','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'normal','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','textDecoration':'none'}"/>
+        <WBadge href="" color="#FFFFFF" v-bind:exact="false" v-bind:active="false" v-bind:append="false" caption="Badge"
+          variant="secondary" v-bind:disabled="false" linkTarget="_self" ncLinkType="link" tagOfBadge="a"
+          v-bind:pillOfBadge="false" ncTypography="body1" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'caption','displayName':'Caption'}]}"
+          toForRouterLink="to" ncClickFontColor="#0000FF" ncFocusFontColor="#00FF00" ncHoverFontColor="#ff0000"
+          ncDisableFontColor="#4285f4" whichHeadTagForSize="h5" position="absolute" top="1.4197163120567375%"
+          left="42.352422907488986%" id="57b688ab-7ce9-42eb-bb18-90e2a7760054"
+          v-bind:style="{'width':'','height':'','fontSize':'8.444999999999999px','maxWidth':'','minWidth':'','tabIndex':'-0.563','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.7037499999999999','marginLeft':'0px','paddingTop':'2.8149999999999995px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'2.8149999999999995px','marginBottom':'0px','paddingRight':'2.8149999999999995px','paddingBottom':'2.8149999999999995px','textDecoration':'none','zIndex':33}"/>
+        <WAvatar src="" href="" icon="" size="" text="" v-bind:badge="false" v-bind:button="false" v-bind:square="false"
+          v-bind:rounded="false" variant="secondary" v-bind:badgeTop="false" v-bind:disabled="false"
+          v-bind:badgeLeft="false" badgeText="" buttonText="Button Text Avatar" linkTarget="_self" ncLinkType="link"
+          v-bind:aspectRatio="true" badgeOffset="" dataLoading="static" badgeVariant="primary"
+          v-bind:hasDesignMode="true" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'update':{'type':'dataModelForDynamicType'},'propName':'src','displayName':'Value'}]}"
+          toForRouterLink="to" dataModelForDynamicType="string" position="absolute" top="1.2211347517730498%"
+          left="54.68722466960352%" id="d700fb20-11bb-4641-bf48-8bf6a12196ff"
+          v-bind:style="{'width':'16.889999999999997px','height':'16.889999999999997px','maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px','zIndex':34}"/>
+        <TwAvatar imgWidth="tw-w-9" linkHref="#" imgHeight="tw-h-9" imgRadius="tw-rounded-full"
+          alignItems="tw-items-center" headerText="Tom Cook" headerColor="tw-text-gray-700"
+          imageSource="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+          textDisplay="tw-sr-only" ncTooltipText="" paragraphText="View profile" headerFontSize="tw-text-sm"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'imageSource','displayName':'Value'}]}"
+          paragraphColor="tw-text-gray-500" headerFontFamily="tw-font-sans" headerFontWeight="tw-font-medium"
+          headerHoverColor="tw-ring-2" notificationRing="tw-ring-2" notificationColor="tw-bg-gray-300"
+          notificationWidth="tw-w-1.5" paragraphFontSize="tw-text-xs" notificationHeight="tw-h-1.5"
+          notificationRadius="tw-rounded-3xl" notificationDisplay="tw-sr-only" paragraphFontFamily="tw-font-sans"
+          paragraphFontWeight="tw-font-medium" paragraphHoverColor="tw-text-gray-700"
+          notificationPosition="tw-top-0 tw-right-0" notificationRingColor="tw-ring-white" position="absolute"
+          top="1.4479432624113475%" left="64.8248898678414%" id="eb14592f-82e4-49b6-9e30-373f9949292d"
+          v-bind:style="{'width':'28.15','height':'28.15','fontSize':'7.882px','maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','backgroundColor':'','zIndex':35}"/>
+        <WAspect
+          src="https://quotefancy.com/media/wallpaper/800x450/1471043-Kapil-Dev-Quote-When-you-have-to-work-work-with-a-smile.jpg"
+          tag="div" aspect="16:9"
+          v-bind:aspects="[{'text':'4:3 (SD)','value':'4:3'},{'text':'1:1 (Square)','value':'1:1'},{'text':'16:9 (HD)','value':'16:9'},{'text':'1.85:1 (Widescreen)','value':'1.85:1'},{'text':'2:1 (Univisium/Superscope)','value':'2:1'},{'text':'21:9 (Anamorphic)','value':'21:9'},{'text':'1.43:1 (IMAX)','value':'1.43:1'},{'text':'3:2 (35mm Film)','value':'3:2'},{'text':'3:1 (APS-P)','value':'3:1'},{'text':'4/3 (Same as 4:3)','value':'4/3'},{'text':'16/9 (Same as 16:9)','value':'16/9'},{'text':'3 (Same as 3:1)','value':'3'},{'text':'2 (Same as 2:1)','value':'2'},{'text':'1.85 (Same as 1.85:1)','value':'1.85'},{'text':'1.5','value':'1.5'},{'text':'1 (Same as 1:1)','value':'1'}]"
+          cardText="" bgVariant=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'src','displayName':'ImageUrl'},{'type':'string','propName':'cardText','displayName':'CardText'}]}"
+          v-bind:textVisibility="true" position="absolute" top="2.370070921985816%" left="43.55726872246696%"
+          id="f5eff0d2-20c6-4e54-a4d6-891c3980ddc0"
+          v-bind:style="{'color':'#000000','width':'','fontSize':'6.755999999999999px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'','maxHeight':'','minHeight':'','textAlign':'left','background':'#ffffff','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','marginLeft':'','paddingTop':'','visibility':'visible','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','paddingBottom':'','textDecoration':'none','zIndex':36}"/>
+      </NucGroupElement>
+    </NucGridCell>
+  </NucGridPage>
+</template>
+<script>
+export default {
+  name: 'asd',
+  data() {
+    return {};
+  },
+  props: {},
+  created() {},
+  mounted() {},
+  computed: {},
+  methods: {},
+  watch: {},
+};
+</script>
+
+<style scoped></style>
